@@ -1,5 +1,5 @@
 import cairns from "./images/cairns.jpg"
-import green_island from "./images/green-island.jpg"
+import green_island from "./images/green-island1.jpg"
 import london from "./images/london-night.jpg"
 import losAngeles from "./images/losAngeles.jpg"
 import monaco from "./images/monaco.jpg"
@@ -80,5 +80,17 @@ export const data = [
                        lively waterfront neighborhoods and a strong outdoor lifestyle`,
         imageUrl: sanDiego,
         visited : true
+    },
+    { 
+        id: "7",
+        title: "Singapore",
+        location: "USA",
+        googleMapsUrl: "https://www.google.it/maps/@32.7407313,-117.0954271,11z?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D",
+        description : `San Diego basks in a mild, sun-soaked climate and is famed
+                       for its family-friendly attractions, seaside promenades and Balboa Park’s museums and gardens
+                       — the San Diego Zoo sits right in the heart of it. The city offers relaxed beach days,
+                       lively waterfront neighborhoods and a strong outdoor lifestyle`,
+        imageUrl: sanDiego,
+        visited : false
     }
 ]

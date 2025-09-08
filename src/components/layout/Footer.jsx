@@ -1,5 +1,5 @@
 export default function Footer(){
-    const footer = `bg-indigo-600 text-indigo-50 p-4 
+    const footer = `bg-slate-600 text-slate-50 p-4 font-semibold
                     text-center`
     return(
         <footer className={footer}>
