@@ -13,6 +13,7 @@ import rioDeJaneiro from "./images/rio-de-janeiro.jpg"
 import serengeti from "./images/serengeti.jpg"
 import singapore from "./images/singapore.jpg"
 import tuvalu from "./images/tuvalu.jpg"
+import sanDiego from "./images/sanDiego-night.jpg"
 
 
 
