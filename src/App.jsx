@@ -1,7 +1,6 @@
 import {Route, createBrowserRouter, createRoutesFromElements, RouterProvider} from "react-router-dom"
-import Home from "./pages/Home"
-import Wishlist from "./pages/Wishlist"
 import Layout from "./components/layout/Layout"
+import Page from "./components/Page"
 import { data } from "./data"
 
 function App() {
@@ -11,8 +10,8 @@ function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
     <Route element={<Layout />}>
-      <Route path="/" element={<Home data={visitedDestinatios} />} />
-      <Route path="wishlist" element={<Wishlist data={notVisitedDestinations} />} />
+      <Route path="/" element={<Page data={visitedDestinatios} title="My travels so far:" />} />
+      <Route path="wishlist" element={<Page data={notVisitedDestinations} title="My wishlist:" />} />
     </Route>
   ))
 
